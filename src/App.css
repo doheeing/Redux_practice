@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    background: url(https://i.pinimg.com/originals/64/5a/31/645a3189953bb9097babe2f7e09ad344.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 150px;
+}
+button{
+    border: none;
+    font-size: 30px;
+    background-color: rgb(151, 210, 151);
+    margin: 10px;
+}
+h1{
+    border: 5px solid black;
+    border-radius: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
