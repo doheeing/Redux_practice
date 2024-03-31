@@ -43,7 +43,7 @@ function App() {
       <div>
         <h1>{count}</h1>
       </div>
-      <div>
+      <div className="input-area">
         <input
           type="number"
           onChange={saveInputValue}
